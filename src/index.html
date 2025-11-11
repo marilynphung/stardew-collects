@@ -1,0 +1,171 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stardew Collects</title>
+
+    <!-- Tailwind via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.12/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body class="bg-[#FFFEF5] min-h-screen flex flex-col">
+    <!-- NAVBAR -->
+    <div class="navbar bg-[#55524D] shadow-sm fixed top-0 left-0 w-full z-10">
+      <div class="max-w-7xl mx-auto w-full px-6">
+        <a class="btn btn-ghost text-xl">Stardew Collects</a>
+      </div>
+    </div>
+
+    <!-- INTRO TEXT -->
+    <section class="pt-24 px-8 text-center text-[#000000] max-w-4xl mx-auto">
+      <h1 class="text-lg font-medium leading-relaxed">
+        A fan-made collection of Stardew Valley tools and resources. Every
+        linked site and project belongs to its original creators. This site
+        isn’t affiliated with ConcernedApe or any of the creators — just here to
+        make it easier to find their amazing work.
+      </h1>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main class="flex-grow flex items-center justify-center pt-15 pb-10">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl w-full px-4"
+      >
+        <!-- CARD 1: earthy rose -->
+        <div
+          class="card bg-[#f5e3d7] shadow-xl mx-auto h-[350px] w-full max-w-xs sm:max-w-sm"
+        >
+          <figure class="h-[120px] w-full overflow-hidden">
+            <img
+              src="assets/wiki.jpg"
+              alt="Stardew Wiki"
+              class="object-cover w-full h-full"
+            />
+          </figure>
+          <div class="card-body p-4 text-[#5a4736]">
+            <h2 class="card-title text-base leading-tight">
+              Stardew Valley Wiki
+            </h2>
+            <p class="text-sm">
+              The official community-run encyclopedia for Stardew Valley. It
+              includes detailed pages about every crop, villager, item,
+              festival, and mechanic you can find in the game. It’s the best
+              place to look up anything you’re curious about while playing.
+            </p>
+            <div class="card-actions justify-end mt-auto">
+              <button
+                class="btn bg-[#c8a88c] border-none hover:bg-[#b99579] text-white btn-sm"
+                id="wiki"
+              >
+                Go to website
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 2: wheat beige -->
+        <div
+          class="card bg-[#f3e8cf] shadow-xl mx-auto h-[350px] w-full max-w-xs sm:max-w-sm"
+        >
+          <figure class="h-[120px] w-full overflow-hidden">
+            <img
+              src="assets/profit.png"
+              alt="Stardew Profits"
+              class="object-cover w-full h-full"
+            />
+          </figure>
+          <div class="card-body p-4 text-[#594d34]">
+            <h2 class="card-title text-base leading-tight">Stardew Profits</h2>
+            <p class="text-sm">
+              A helpful calculator that shows which crops bring in the most
+              money each season. You can compare growing times, prices, and
+              profits to plan your farm more efficiently and make the most of
+              your harvests.
+            </p>
+            <div class="card-actions justify-end mt-auto">
+              <button
+                class="btn bg-[#c3a86b] border-none hover:bg-[#ad925b] text-white btn-sm"
+                id="profit"
+              >
+                Go to website
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3: sage green -->
+        <div
+          class="card bg-[#dce7d2] shadow-xl mx-auto h-[350px] w-full max-w-xs sm:max-w-sm"
+        >
+          <figure class="h-[120px] w-full overflow-hidden">
+            <img
+              src="assets/farm_planner.png"
+              alt="Farm Planner"
+              class="object-cover w-full h-full"
+            />
+          </figure>
+          <div class="card-body p-4 text-[#3d513c]">
+            <h2 class="card-title text-base leading-tight">
+              Stardew Valley Interactive Farm Planner
+            </h2>
+            <p class="text-sm">
+              An interactive map tool that lets you design and organize your
+              farm before you start building. You can arrange buildings, crops,
+              and decorations to visualize your layout and try new ideas without
+              spending a single in-game day.
+            </p>
+            <div class="card-actions justify-end mt-auto">
+              <button
+                class="btn bg-[#9bb58d] border-none hover:bg-[#8aa27c] text-white btn-sm"
+                id="farm_planner"
+              >
+                Go to website
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4: soft sky -->
+        <div
+          class="card bg-[#d9e9ee] shadow-xl mx-auto h-[350px] w-full max-w-xs sm:max-w-sm"
+        >
+          <figure class="h-[120px] w-full overflow-hidden">
+            <img
+              src="assets/dress_up.png"
+              alt="Dress Up"
+              class="object-cover w-full h-full"
+            />
+          </figure>
+          <div class="card-body p-4 text-[#3a4f58]">
+            <h2 class="card-title text-base leading-tight">
+              Stardew Valley Dress Up
+            </h2>
+            <p class="text-sm">
+              A fun character creator where you can try different hairstyles,
+              clothing, and accessories to design your perfect farmer. It’s
+              great for experimenting with looks before starting a new save or
+              giving your character a fresh style.
+            </p>
+            <div class="card-actions justify-end mt-auto">
+              <button
+                class="btn bg-[#7fa9b0] border-none hover:bg-[#6e98a0] text-white btn-sm"
+                id="dress_up"
+              >
+                Go to website
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
